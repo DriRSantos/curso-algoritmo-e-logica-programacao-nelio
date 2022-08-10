@@ -38,8 +38,8 @@ public class Main {
 		linha = sc.nextInt();
 
 		System.out.print("LINHA ESCOLHIDA: ");
-		for (int i=0; i<N; i++) {
-			System.out.printf("%.1f ", mat[linha][i]);
+		for (int j=0; j<N; j++) {
+			System.out.printf("%.1f ", mat[linha][j]);
 		}
 
 		System.out.printf("\n\nEscolha uma coluna: ");
